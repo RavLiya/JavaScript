@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.main {
+    text-align:center;
+    border: 3px solid green;
+}
+
+#list{
+    width:auto;
+    align-self:auto;
+}
+
+.list{
+    height: 25px;
+    margin-bottom: 3px;
+}
+
+.list.listHigh{
+    background-color: indianred;
+    /* height: 25px;
+    margin-bottom: 3px; */
+}
+
+.list.listMedium{
+    background-color: lightgreen;
+    /* height: 25px;
+    margin-bottom: 3px; */
+}
+
+.list.listLow{
+    background-color: lightcyan;
+    /* height: 25px;
+    margin-bottom: 3px; */
+}
+
+.btn {
+    position: absolute;
+    height: 25px;
+    right: 35px;
+}
