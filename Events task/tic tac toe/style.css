@@ -1,0 +1,35 @@
+html, body {
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+.board {
+    height: 600px;
+    width: 600px;
+    display: flex;
+}
+
+.board__cell {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #222;
+}
+
+.board__column {
+    height: 200px;
+    width: 200px;
+}
+
+.board__cell.visible_playerOne {
+    background-color: rgb(234, 225, 171);
+}
+
+.board__cell.visible_playerTwo {
+    background-color: rgb(55, 164, 189);
+}
+
+.finish {
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+}
